@@ -1,41 +1,52 @@
 pipeline {
     agent any
-
+    
+    environment {
+        IMAGE_NAME = 'bindu2009/aircraft-app'
+        CONTAINER_NAME = 'aircraft-container'
+    }
+    
     stages {
-
-        stage('Clone Repository') {
+        stage('clone repository') {
             steps {
                 git branch: 'master',
-                url: 'https://github.com/USERNAME/REPOSITORY.git'
+                url: 'https://github.com/Bindu-code123/Aircraft.git'
             }
         }
-
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t aircraft-app:v1 .'
+                sh 'docker build -t bindu2009/aircraft-app:latest .'
             }
         }
-
-        stage('Remove Old Container') {
+        stage('Docker login') {
+            steps {
+                withCredentials([usernamePassword(
+                    credentialsId: 'userPass',
+                    usernameVariable: 'USER',
+                    passwordVariable: 'PASS')]) {
+                        sh 'echo $PASS | docker login -u $USER --password-stdin'
+                    }
+            }
+        }
+        stage('push image to docker hub') {
+            steps {
+                sh 'docker push $IMAGE_NAME:latest'
+            }
+        }
+        stage('Remove old container') {
             steps {
                 sh 'docker rm -f aircraft-container || true'
             }
         }
-
-        stage('Run Container') {
+        stage('Run container') {
             steps {
-                sh '''
-                docker run -d \
-                --name aircraft-container \
-                -p 5000:5000 \
-                aircraft-app:v1
-                '''
+                sh 'docker run -d --name aircraft-container -p 5000:5000 $IMAGE_NAME:latest'
             }
         }
-
-        stage('Verify') {
+        stage('verify') {
             steps {
                 sh 'docker ps'
+                sh 'docker images'
             }
         }
     }
