@@ -1,0 +1,65 @@
+[
+  {
+    "aircraft_id": "AC-202",
+    "name": "Airbus A320neo",
+    "status": "COMPLETED",
+    "maintenance_date": "2026-09-09",
+    "engineer_name": "Liam Chen"
+  },
+  {
+    "aircraft_id": "AC-303",
+    "name": "Boeing 787-9",
+    "status": "COMPLETED",
+    "maintenance_date": "2026-09-08",
+    "engineer_name": "Mia Rodriguez"
+  },
+  {
+    "aircraft_id": "AC-404",
+    "name": "Airbus A321neo",
+    "status": "SCHEDULED",
+    "maintenance_date": "2026-09-09",
+    "engineer_name": "Priya Sharma"
+  },
+  {
+    "aircraft_id": "AC-505",
+    "name": "Boeing 737 MAX 8",
+    "status": "SCHEDULED",
+    "maintenance_date": "2026-09-09",
+    "engineer_name": "Daniel Okafor"
+  },
+  {
+    "aircraft_id": "AC-606",
+    "name": "Embraer E195-E2",
+    "status": "SCHEDULED",
+    "maintenance_date": "2026-09-09",
+    "engineer_name": "Elena Volkov"
+  },
+  {
+    "aircraft_id": "AC-707",
+    "name": "Airbus A330-900neo",
+    "status": "IN_PROGRESS",
+    "maintenance_date": "2026-09-07",
+    "engineer_name": "Marcus Webb"
+  },
+  {
+    "aircraft_id": "AC-808",
+    "name": "Boeing 747-8F",
+    "status": "IN_PROGRESS",
+    "maintenance_date": "2026-09-08",
+    "engineer_name": "Yuki Tanaka"
+  },
+  {
+    "aircraft_id": "AC-220",
+    "name": "Airbus A220-300",
+    "status": "IN_PROGRESS",
+    "maintenance_date": "2026-09-05",
+    "engineer_name": "Isabella Rossi"
+  },
+  {
+    "aircraft_id": "PB3",
+    "name": "Praharsha",
+    "status": "IN_PROGRESS",
+    "maintenance_date": "2026-05-22",
+    "engineer_name": "Kamandu"
+  }
+]

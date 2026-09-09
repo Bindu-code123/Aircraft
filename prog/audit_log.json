@@ -1,0 +1,343 @@
+[
+  {
+    "timestamp": "2026-09-09T11:48:08.557384",
+    "action": "AIRCRAFT_REGISTERED",
+    "aircraft_id": "AC-999",
+    "details": {
+      "name": "Boeing 777-300ER",
+      "initial_status": "Scheduled",
+      "maintenance_date": "2026-09-15",
+      "engineer": "Test Engineer"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T11:49:56.119137",
+    "action": "AIRCRAFT_DELETED",
+    "aircraft_id": "AC-999",
+    "details": {
+      "aircraft_id": "AC-999",
+      "name": "Boeing 777-300ER",
+      "status": "Scheduled",
+      "engineer": "Test Engineer"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T11:53:36.302143",
+    "action": "AIRCRAFT_REGISTERED",
+    "aircraft_id": "AC-500",
+    "details": {
+      "name": "Airbus A350-900",
+      "initial_status": "Scheduled",
+      "maintenance_date": "2026-09-09",
+      "engineer": "Noah Kim"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T11:53:36.442367",
+    "action": "STATUS_UPDATED",
+    "aircraft_id": "AC-500",
+    "details": {
+      "previous_status": "Scheduled",
+      "new_status": "In Progress",
+      "aircraft_name": "Airbus A350-900",
+      "engineer": "Noah Kim"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T11:53:36.505871",
+    "action": "STATUS_UPDATED",
+    "aircraft_id": "AC-500",
+    "details": {
+      "previous_status": "In Progress",
+      "new_status": "Completed",
+      "aircraft_name": "Airbus A350-900",
+      "engineer": "Noah Kim"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T11:54:26.601211",
+    "action": "AIRCRAFT_DELETED",
+    "aircraft_id": "AC-500",
+    "details": {
+      "aircraft_id": "AC-500",
+      "name": "Airbus A350-900",
+      "status": "Completed",
+      "engineer": "Noah Kim"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T11:54:36.377400",
+    "action": "AIRCRAFT_REGISTERED",
+    "aircraft_id": "AC-777",
+    "details": {
+      "name": "Boeing 777X",
+      "initial_status": "Scheduled",
+      "maintenance_date": "2026-09-09",
+      "engineer": "Sara Ali"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T11:54:48.552963",
+    "action": "STATUS_UPDATED",
+    "aircraft_id": "AC-777",
+    "details": {
+      "previous_status": "Scheduled",
+      "new_status": "In Progress",
+      "aircraft_name": "Boeing 777X",
+      "engineer": "Sara Ali"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T11:55:04.465983",
+    "action": "STATUS_UPDATED",
+    "aircraft_id": "AC-777",
+    "details": {
+      "previous_status": "In Progress",
+      "new_status": "Completed",
+      "aircraft_name": "Boeing 777X",
+      "engineer": "Sara Ali"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T11:55:37.069337",
+    "action": "AIRCRAFT_DELETED",
+    "aircraft_id": "AC-777",
+    "details": {
+      "aircraft_id": "AC-777",
+      "name": "Boeing 777X",
+      "status": "Completed",
+      "engineer": "Sara Ali"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T11:57:04.002379",
+    "action": "AIRCRAFT_DELETED",
+    "aircraft_id": "AC-101",
+    "details": {
+      "aircraft_id": "AC-101",
+      "name": "Boeing 737-800",
+      "status": "Scheduled",
+      "engineer": "Ava Patel"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T11:57:27.515972",
+    "action": "AIRCRAFT_REGISTERED",
+    "aircraft_id": "AC100",
+    "details": {
+      "name": "Bindu1234",
+      "initial_status": "Scheduled",
+      "maintenance_date": "2026-09-20",
+      "engineer": "Me"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T11:58:02.747941",
+    "action": "AIRCRAFT_DELETED",
+    "aircraft_id": "AC100",
+    "details": {
+      "aircraft_id": "AC100",
+      "name": "Bindu1234",
+      "status": "Scheduled",
+      "engineer": "Me"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T11:58:18.397741",
+    "action": "STATUS_UPDATED",
+    "aircraft_id": "AC-202",
+    "details": {
+      "previous_status": "In Progress",
+      "new_status": "Completed",
+      "aircraft_name": "Airbus A320neo",
+      "engineer": "Liam Chen"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:04:28.679378",
+    "action": "AIRCRAFT_REGISTERED",
+    "aircraft_id": "AC-404",
+    "details": {
+      "name": "Airbus A321neo",
+      "initial_status": "Scheduled",
+      "maintenance_date": "2026-09-09",
+      "engineer": "Priya Sharma"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:04:28.695085",
+    "action": "AIRCRAFT_REGISTERED",
+    "aircraft_id": "AC-505",
+    "details": {
+      "name": "Boeing 737 MAX 8",
+      "initial_status": "Scheduled",
+      "maintenance_date": "2026-09-09",
+      "engineer": "Daniel Okafor"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:04:28.707131",
+    "action": "AIRCRAFT_REGISTERED",
+    "aircraft_id": "AC-606",
+    "details": {
+      "name": "Embraer E195-E2",
+      "initial_status": "Scheduled",
+      "maintenance_date": "2026-09-09",
+      "engineer": "Elena Volkov"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:04:28.722925",
+    "action": "AIRCRAFT_REGISTERED",
+    "aircraft_id": "AC-707",
+    "details": {
+      "name": "Airbus A330-900neo",
+      "initial_status": "Scheduled",
+      "maintenance_date": "2026-09-07",
+      "engineer": "Marcus Webb"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:04:28.736342",
+    "action": "AIRCRAFT_REGISTERED",
+    "aircraft_id": "AC-808",
+    "details": {
+      "name": "Boeing 747-8F",
+      "initial_status": "Scheduled",
+      "maintenance_date": "2026-09-08",
+      "engineer": "Yuki Tanaka"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:04:28.751021",
+    "action": "AIRCRAFT_REGISTERED",
+    "aircraft_id": "AC-909",
+    "details": {
+      "name": "Bombardier CRJ900",
+      "initial_status": "Scheduled",
+      "maintenance_date": "2026-09-06",
+      "engineer": "Omar Hassan"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:05:15.036978",
+    "action": "STATUS_UPDATED",
+    "aircraft_id": "AC-707",
+    "details": {
+      "previous_status": "Scheduled",
+      "new_status": "In Progress",
+      "aircraft_name": "Airbus A330-900neo",
+      "engineer": "Marcus Webb"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:05:15.051165",
+    "action": "STATUS_UPDATED",
+    "aircraft_id": "AC-808",
+    "details": {
+      "previous_status": "Scheduled",
+      "new_status": "In Progress",
+      "aircraft_name": "Boeing 747-8F",
+      "engineer": "Yuki Tanaka"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:05:15.063281",
+    "action": "STATUS_UPDATED",
+    "aircraft_id": "AC-909",
+    "details": {
+      "previous_status": "Scheduled",
+      "new_status": "In Progress",
+      "aircraft_name": "Bombardier CRJ900",
+      "engineer": "Omar Hassan"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:05:15.074161",
+    "action": "STATUS_UPDATED",
+    "aircraft_id": "AC-909",
+    "details": {
+      "previous_status": "In Progress",
+      "new_status": "Completed",
+      "aircraft_name": "Bombardier CRJ900",
+      "engineer": "Omar Hassan"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:05:36.074649",
+    "action": "AIRCRAFT_REGISTERED",
+    "aircraft_id": "AC-111",
+    "details": {
+      "name": "ATR 72-600",
+      "initial_status": "Scheduled",
+      "maintenance_date": "2026-09-10",
+      "engineer": "Chen Wei"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:05:36.086158",
+    "action": "AIRCRAFT_DELETED",
+    "aircraft_id": "AC-111",
+    "details": {
+      "aircraft_id": "AC-111",
+      "name": "ATR 72-600",
+      "status": "Scheduled",
+      "engineer": "Chen Wei"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:06:19.001164",
+    "action": "AIRCRAFT_REGISTERED",
+    "aircraft_id": "AC-220",
+    "details": {
+      "name": "Airbus A220-300",
+      "initial_status": "Scheduled",
+      "maintenance_date": "2026-09-05",
+      "engineer": "Isabella Rossi"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:06:19.012659",
+    "action": "STATUS_UPDATED",
+    "aircraft_id": "AC-220",
+    "details": {
+      "previous_status": "Scheduled",
+      "new_status": "In Progress",
+      "aircraft_name": "Airbus A220-300",
+      "engineer": "Isabella Rossi"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:14:32.205363",
+    "action": "AIRCRAFT_REGISTERED",
+    "aircraft_id": "PB3",
+    "details": {
+      "name": "Praharsha",
+      "initial_status": "Scheduled",
+      "maintenance_date": "2026-05-22",
+      "engineer": "Kamandu"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:14:58.853661",
+    "action": "STATUS_UPDATED",
+    "aircraft_id": "PB3",
+    "details": {
+      "previous_status": "Scheduled",
+      "new_status": "In Progress",
+      "aircraft_name": "Praharsha",
+      "engineer": "Kamandu"
+    }
+  },
+  {
+    "timestamp": "2026-09-09T12:48:19.525090",
+    "action": "AIRCRAFT_DELETED",
+    "aircraft_id": "AC-909",
+    "details": {
+      "aircraft_id": "AC-909",
+      "name": "Bombardier CRJ900",
+      "status": "Completed",
+      "engineer": "Omar Hassan"
+    }
+  }
+]
